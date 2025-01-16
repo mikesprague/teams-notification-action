@@ -82,6 +82,7 @@ void (async () => {
 
       messageToPost = populateCard({
         title,
+        message,
         color: colorString,
         commit,
         branch,
